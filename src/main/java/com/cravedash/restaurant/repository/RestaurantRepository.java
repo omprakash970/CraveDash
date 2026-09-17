@@ -1,6 +1,6 @@
-package com.crashdev.restaurant.repository;
+package com.cravedash.restaurant.repository;
 
-import com.crashdev.restaurant.entity.Restaurant;
+import com.cravedash.restaurant.entity.Restaurant;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RestaurantRepository extends JpaRepository<Restaurant, Long> {

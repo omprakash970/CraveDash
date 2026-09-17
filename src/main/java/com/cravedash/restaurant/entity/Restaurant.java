@@ -1,4 +1,4 @@
-package com.crashdev.restaurant.entity;
+package com.cravedash.restaurant.entity;
 
 
 import jakarta.persistence.*;

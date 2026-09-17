@@ -1,8 +1,7 @@
-package com.crashdev.restaurant.service;
+package com.cravedash.restaurant.service;
 
-import com.crashdev.restaurant.entity.Restaurant;
-import com.crashdev.restaurant.repository.RestaurantRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.cravedash.restaurant.entity.Restaurant;
+import com.cravedash.restaurant.repository.RestaurantRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

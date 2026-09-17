@@ -1,8 +1,8 @@
-package com.crashdev.restaurant.controller;
+package com.cravedash.restaurant.controller;
 
 
-import com.crashdev.restaurant.entity.Restaurant;
-import com.crashdev.restaurant.service.RestaurantService;
+import com.cravedash.restaurant.entity.Restaurant;
+import com.cravedash.restaurant.service.RestaurantService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -34,6 +34,18 @@ public class RestaurantController {
         return ResponseEntity.ok(
                 restaurantService.getRestaurantById(id)
         );
+    }
+    @PutMapping("/{id}")
+    public ResponseEntity<Restaurant> updateRestaurant(@PathVariable Long id, @RequestBody Restaurant restaurant){
+        return ResponseEntity.ok(
+                restaurantService.updateRestaurant(id, restaurant)
+        );
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteRestaurant(@PathVariable Long id){
+        restaurantService.deleteRestaurant(id);
+        return ResponseEntity.noContent().build();
     }
 
 

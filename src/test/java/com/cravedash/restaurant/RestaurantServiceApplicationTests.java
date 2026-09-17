@@ -1,4 +1,4 @@
-package com.crashdev.restaurant;
+package com.cravedash.restaurant;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

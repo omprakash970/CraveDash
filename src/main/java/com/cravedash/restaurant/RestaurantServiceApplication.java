@@ -1,4 +1,4 @@
-package com.crashdev.restaurant;
+package com.cravedash.restaurant;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
