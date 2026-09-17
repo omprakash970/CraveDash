@@ -8,7 +8,7 @@
         <version>4.1.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.crashdev</groupId>
+    <groupId>com.cravedash</groupId>
     <artifactId>restaurant-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>restaurant-service</name>
